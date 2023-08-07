@@ -1,0 +1,35 @@
+.sectionInput {
+  display: flex;
+  flex-direction: column;
+}
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: #959292;
+}
+.input {
+  margin-top: 5px;
+  width: 200px;
+}
+.input:hover,
+.input:focus {
+  outline: 2px solid aqua;
+}
+.submitBtn {
+  font-weight: 700;
+  width: 120px;
+  height: 40px;
+  margin: 20px auto;
+  cursor: pointer;
+  background-color: aqua;
+  border: 1px solid black;
+}
+.submitBtn:hover,
+.submitBtn:focus {
+  box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+  -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+  -moz-box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+}

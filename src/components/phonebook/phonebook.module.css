@@ -1,0 +1,16 @@
+.phonebook {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 20px auto;
+  box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+  -webkit-box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+  -moz-box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+}
+.header {
+  text-align: center;
+}
+.contacts {
+  width: 500px;
+  margin: 20px auto;
+}
